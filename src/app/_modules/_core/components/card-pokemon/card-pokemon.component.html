@@ -1,1 +1,19 @@
-<div class="container-card"></div>
+<div class="container-card">
+
+    <!-- Box image -->
+    <div class="container-image">
+        <img 
+            class="image-pokemon" 
+            [src]="image" />
+    </div>
+
+    <!-- Box infos -->
+    <div class="container-infos">
+
+        <!-- Number pokemon -->
+        <p class="pokemon-number">N˚ {{ imageNumber }}</p>
+
+        <!-- Name pokemon -->
+        <p class="pokemon-name">{{ pokemonName }}</p>
+    </div>
+</div>
